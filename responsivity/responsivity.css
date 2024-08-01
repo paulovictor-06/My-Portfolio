@@ -1,0 +1,116 @@
+
+
+@media screen and (max-width: 900px) {
+    
+    main.active {
+        filter: blur(1px);
+    }
+
+    #header-container {
+        z-index: 3;
+    }
+
+    #menu-box, #menu-hamburguer {
+        z-index: 4;
+    }
+
+    
+    #menu-hamburguer {
+        display: block;
+    }
+
+    .navigation-bar {
+        display: none;
+    }
+
+
+    /* =========== Main ============ */
+
+
+    #first-view-main {
+        flex-direction: column;
+    }
+
+    #text-content {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #text-content .social-media-box {
+        justify-content: center;
+    }
+
+    #image-content {
+        width: 30%;
+        display: block;
+        
+    }
+
+    #image-content .programming {
+        width: 100%;
+        box-shadow: none ;
+        border: 1px solid #ccc;
+    }
+
+    .about-me-card-box {
+        flex-direction: column;
+    }
+
+    .about-me-card-item {
+        width: 70% ;
+        margin: 0 auto;
+    }
+
+    .about-me-card-item:nth-child(2) {
+        margin-top: 0;
+      }
+
+    .clickable-message .hand-icon{
+        font-size: 1.4rem;
+    }
+}
+
+
+
+@media screen and (max-width: 630px) {
+
+    #text-content {
+        margin-bottom: 30px;
+    }
+
+    #image-content  {
+        display: block;
+    }
+
+    #saudation-text {
+        font-size: 0.6rem;
+    }
+
+    #personal-name-text {
+        font-size: 2rem;
+    }
+
+    #describing-paragraph {
+        font-size: 0.8rem;
+    }
+
+    .title-item {
+        font-size: 2.3rem;
+    }
+
+    .title-box {
+        width: 90%;
+    }
+
+    .about-me-paragraph-box,
+    .projects-details {
+        max-width: 90%;
+    }
+
+    .about-me-paragraph-item,
+    .clickable-message-text,
+    .paragraph-projects-details {
+        font-size: 0.9rem;
+    }
+}
